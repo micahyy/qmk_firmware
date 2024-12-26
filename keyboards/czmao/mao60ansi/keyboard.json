@@ -7,8 +7,8 @@
     "processor": "atmega32u4",
     "bootloader": "caterina",
     "usb": {
-      "vid": "0x4A14",
-      "pid": "0x4A14",
+      "vid": "0x4A60",
+      "pid": "0x4A60",
       "device_version": "1.0.0"
     },
     "features": {
