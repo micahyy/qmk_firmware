@@ -14,19 +14,17 @@
     "features": {
         "bootmagic": true,
         "nkro": true,
-        "command": true,
-        "extrakey": true,
         "rgb_matrix": true
     },
     "dynamic_keymap": {
-      "layer_count": 8
+      "layer_count": 6
     },
-
+        
     "matrix_pins": {
         "cols": ["B12", "B14", "B15", "A8", "A9"],
         "rows": ["C13", "C14", "A0",  "A1",  "A2"]
       },
-
+  
       "ws2812": {
         "pin": "B13"
       },
@@ -95,12 +93,12 @@
             { "flags": 2, "matrix": [3, 1], "x": 56, "y": 48 },
             { "flags": 2, "matrix": [3, 2], "x": 112, "y": 48 },
             { "flags": 2, "matrix": [3, 3], "x": 168, "y": 48 },
-
+      
 
             { "flags": 2, "matrix": [4, 0], "x": 0, "y": 64 },
             { "flags": 2, "matrix": [4, 1], "x": 84, "y": 64 },
             { "flags": 2, "matrix": [4, 2], "x": 168, "y": 64 },
-            { "flags": 2, "matrix": [4, 4], "x": 224, "y": 56 }
+            { "flags": 2, "matrix": [4, 4], "x": 224, "y": 56 }    
             ],
             "sleep": true
         },
@@ -128,12 +126,12 @@
                 {"label":"P1",    "matrix": [ 3,1],"x":1.25,"y":3},
                 {"label":"P2",    "matrix": [ 3,2],"x":2.25,"y":3},
                 {"label":"P3",    "matrix": [ 3,3],"x":3.25,"y":3},
-
+      
                 {"label":"FN",    "matrix": [ 4,0],"x":0,   "y":4},
                 {"label":"P0",    "matrix": [ 4,1],"x":1.25,"y":4},
                 {"label":"PDOT",  "matrix": [ 4,2],"x":2.25,"y":4},
                 {"label":"PENT",  "matrix": [ 4,4],"x":3.25,"y":4,"h":2}
-
+                
             ]
         }
     }
