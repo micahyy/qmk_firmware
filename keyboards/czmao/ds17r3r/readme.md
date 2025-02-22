@@ -1,4 +1,4 @@
-# mao ds 17r3l
+# mao ds 17r3 Righthand
 
 
 3D print case , taobao link below
@@ -19,7 +19,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Make example for this keyboard (after setting up your build environment):
 
-    make czmao/ds17r2:default
+    make czmao/ds17r3r:default
 
 
 
@@ -29,6 +29,6 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Enter the bootloader in 3 ways:
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+* **Bootmagic reset**: Hold down the key Number Lock and plug in the keyboard
+* **Physical reset button**: Briefly short the reset keys on the back of the PCB
+
