@@ -12,9 +12,13 @@
       "device_version": "1.0.0"
     },
     "features": {
-        "bootmagic": true,
-        "nkro": true,
-        "rgblight": true
+      "bootmagic": true,
+      "command": true,
+      "console": true,
+      "extrakey": true,
+      "mousekey": true,
+      "nkro": true,
+      "rgblight": true
       
     },
     "indicators": {
